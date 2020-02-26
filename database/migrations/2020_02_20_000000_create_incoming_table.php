@@ -20,7 +20,7 @@ class CreateIncomingTable extends Migration
             $table->string('mailNumber');
             $table->string('mailContent');
             $table->string('mailAttch');
-            $table->string('mailStatus');
+            $table->string('mailStatus')->nullable();
         });
     }
 

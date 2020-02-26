@@ -1,0 +1,41 @@
+body {
+  background: #FDFDFD;
+  font-family: "Quicksand";
+}
+
+.sidebar {
+  color: #FFFFFF;
+  background: #FFFFFF;
+  border-right: 1px SOLID rgba(128, 128, 128, 0.2);
+}
+
+.navbar,
+.uk-navbar-container {
+  color: #FFFFFF;
+  background: #f8f8f9;
+}
+
+.fas {
+  min-width: 32px;
+}
+
+.uk-logo {
+  cursor: default;
+}
+
+.dashboard .uk-card {
+  color: #393939;
+  border-radius: 30px;
+  background: #fafafa;
+  box-shadow: -14px 14px 29px #e2e2e2, 14px -14px 29px #f4f4f4;
+}
+
+.dashboard .form #mailAttch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: none;
+  background-color: none;
+  min-width: 50vw;
+}
+

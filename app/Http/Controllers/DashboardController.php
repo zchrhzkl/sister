@@ -10,5 +10,13 @@ class DashboardController extends Controller
     return view('home');
   }
 
+  public function createIncoming(){
+    return view('createIncoming');
+  }
+
+  public function createOutgoing(){
+    return view('createOutgoing');
+  }
+
 
 }

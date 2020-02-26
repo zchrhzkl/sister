@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('login');
 });
 
+
 Route::get('/dashboard', 'DashboardController@home');
+Route::get('/createIncoming', 'DashboardController@createIncoming');
+Route::get('/createOutgoing', 'DashboardController@createOutgoing');
