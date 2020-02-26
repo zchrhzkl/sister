@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('section');
             $table->integer('accessLevel')->unsigned();
             $table->timestamp('email_verified_at')->nullable();
-            // $table->rememberToken();
+            $table->rememberToken();
             $table->timestamps();
         });
     }

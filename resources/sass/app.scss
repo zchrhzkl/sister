@@ -1,1 +1,87 @@
+// @font-face {
+//   font-family: 'Quicksand-300';
+//   font-style:  normal;
+//   font-weight: 300;
+//   src: url("../../fonts/Quicksand-Light.ttf") format("ttf"),
+// }
 //
+// @font-face {
+//   font-family: 'Quicksand-400';
+//   font-style:  normal;
+//   font-weight: 400;
+//   src: url("../../fonts/Quicksand-Regular.ttf") format("ttf"),
+// }
+//
+// @font-face {
+//   font-family: 'Quicksand-500';
+//   font-style:  normal;
+//   font-weight: 500;
+//   src: url("../../fonts/Quicksand-Medium.ttf") format("ttf"),
+// }
+//
+// @font-face {
+//   font-family: 'Quicksand-600';
+//   font-style:  normal;
+//   font-weight: 600;
+//   src: url("../../fonts/Quicksand-SemiBold.ttf") format("ttf"),
+// }
+//
+// @font-face {
+//   font-family: 'Quicksand-700';
+//   font-style:  normal;
+//   font-weight: 700;
+//   src: url("../../fonts/Quicksand-Bold.ttf") format("ttf"),
+// }
+
+body {
+  background: #FDFDFD;
+  font-family: 'Quicksand', ;
+  // background-image: linear-gradient(180deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.sidebar {
+  color: #FFFFFF;
+  background: #FFFFFF;
+  border-right: 1px SOLID rgba(128, 128, 128,0.2);
+}
+
+.sidebar .uk-nav-default > li >a,
+.sidebar .uk-nav-default .uk-nav-sub a{
+  // color: #FFFFFF;
+}
+
+.navbar, .uk-navbar-container {
+  color: #FFFFFF;
+  background: #f8f8f9;
+}
+
+.fas {
+  min-width: 32px;
+}
+
+.uk-logo {
+  cursor: default;
+}
+
+.dashboard {
+  .uk-card{
+    color: #393939;
+    border-radius: 30px;
+    background: #fafafa;
+    box-shadow:  -14px 14px 29px #e2e2e2,
+                 14px -14px 29px #f4f4f4;
+
+  }
+
+  .form {
+    #mailAttch {
+      margin: 0;
+    	padding: 0;
+    	border: 0;
+      border: none;
+      background-color: none;
+
+      min-width: 50vw;
+    }
+  }
+}
