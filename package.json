@@ -23,7 +23,7 @@
         "fibers": "^4.0.2",
         "foundation-sites": "^6.6.1",
         "fsevents": "^2.1.2",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "node-sass": "^4.13.1",
         "what-input": "^5.2.6"
     }
